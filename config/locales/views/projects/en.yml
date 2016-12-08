@@ -1,0 +1,15 @@
+en:
+  # Projects folder
+  all_projects: "All Projects"
+  s_projects: "%{as}s's Projects"
+  project_name: "Project Name"
+  project_note: "Project Note"
+  project: "Project"
+  edit_project: "Edit %{as}'s project"
+  back_to_projects: "Back to Projects"
+  update_project: "Update Project"
+  project_updated: "%{as}'s project updated successfully"
+  add_project: "Add project"
+  new_project: "New Project"
+  create_project: "Create Project"
+  project_created: "%{as}'s project created successfully"

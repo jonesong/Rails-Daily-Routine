@@ -1,0 +1,13 @@
+<nav>
+  <%= image_tag('logo_deepblue.png', :alt => 'LOGO', :id => 'logo') %>
+  <ul id="menu">
+    <% if @userid != nil %>
+      <% @programUsers.each do |programUser| %>
+      <li><%= link_to("#{t 'view_all', program: programUser.name}", send("#{programUser.name.downcase}s_path")) %></li>
+      <% end %>
+      <li><%= link_to("#{t 'log_out'}", access_logout_path) %></li>
+    <% else %>
+      <li><%= link_to("#{t 'log_in'}", access_login_path) %></li>
+    <% end %>
+  </ul>
+</nav>

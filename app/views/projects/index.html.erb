@@ -1,0 +1,28 @@
+<% @page_title = t 'all_projects' %>
+
+<h2><%= "#{t 's_projects', as: @username}" %></h2>
+
+<div>
+  <table>
+    <tr class="list">
+      <th><%= t 'project_name' %></th>
+      <th><%= t 'project_note' %></th>
+      <th width="100"></th>
+      <th width="100"></th>
+    </tr>
+    <% @projects.each do |project| %>
+    <tr class="list">
+      <!-- <%= link_to(project.name, project_path(project, :name => project.name)) %> -->
+      <td><%= link_to(project.name, project_path(project)) %></td>
+      <td><%= project.note %></td>
+      <td><%= link_to("#{t 'edit'}", edit_project_path(project), :class => 'btn btn-success custom-width') %></td>
+      <td><%= link_to("#{t 'delete'}", delete_project_path(project), :class => 'btn btn-danger custom-width') %></td>
+    </tr>
+    <% end %>
+  </table>
+
+</div>
+
+<%= link_to("#{t 'add'} #{t 'new'} #{t 'project'}", new_project_path()) %>
+<br><br>
+<%= link_to("#{t 'back_to_menu'}", admin_path, :class => 'back-link') %>

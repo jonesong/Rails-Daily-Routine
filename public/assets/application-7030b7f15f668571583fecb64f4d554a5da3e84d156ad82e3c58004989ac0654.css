@@ -1,0 +1,192 @@
+/* Colors */
+/* line 13, C:/Sites/daily_routine/app/assets/stylesheets/primary.css.scss */
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: Tahoma, Verdana, Helvetica, sans-serif;
+  position: relative;
+}
+
+/* line 20, C:/Sites/daily_routine/app/assets/stylesheets/primary.css.scss */
+body {
+  padding: 0 0 40px;
+  color: #17202A;
+  background: #f9f9f9;
+}
+
+/* line 26, C:/Sites/daily_routine/app/assets/stylesheets/primary.css.scss */
+h1, h2, h3, h4 {
+  font-family: monospace;
+  font-weight: 300;
+  color: #2C3E50;
+}
+
+/* line 32, C:/Sites/daily_routine/app/assets/stylesheets/primary.css.scss */
+h2, label {
+  padding-left: 5px;
+}
+
+/* line 36, C:/Sites/daily_routine/app/assets/stylesheets/primary.css.scss */
+a {
+  text-decoration: none;
+  color: #ff7761;
+  padding-left: 5px;
+}
+
+/* line 42, C:/Sites/daily_routine/app/assets/stylesheets/primary.css.scss */
+#main {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+/* line 47, C:/Sites/daily_routine/app/assets/stylesheets/primary.css.scss */
+#content {
+  background: #f9f9f9;
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25);
+}
+
+/* line 52, C:/Sites/daily_routine/app/assets/stylesheets/primary.css.scss */
+#footer {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 30px;
+  line-height: 30px;
+  width: 100%;
+  text-align: center;
+  background: #FFFFFF;
+  border-top: 1px solid #f9a11b;
+  font-size: 14px;
+}
+/* line 64, C:/Sites/daily_routine/app/assets/stylesheets/primary.css.scss */
+#footer p {
+  margin: 0;
+  padding: 0.1em 1em;
+}
+/* Colors */
+/* line 12, C:/Sites/daily_routine/app/assets/stylesheets/primary.css.scss */
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: Tahoma, Verdana, Helvetica, sans-serif;
+  position: relative;
+}
+
+/* line 19, C:/Sites/daily_routine/app/assets/stylesheets/primary.css.scss */
+body {
+  padding: 0 0 40px;
+  color: #17202A;
+  background: #f9f9f9;
+}
+
+/* line 25, C:/Sites/daily_routine/app/assets/stylesheets/primary.css.scss */
+h1, h2, h3, h4 {
+  font-family: monospace;
+  font-weight: 300;
+  color: #2C3E50;
+}
+
+/* line 31, C:/Sites/daily_routine/app/assets/stylesheets/primary.css.scss */
+h2, label {
+  padding-left: 5px;
+}
+
+/* line 35, C:/Sites/daily_routine/app/assets/stylesheets/primary.css.scss */
+a {
+  text-decoration: none;
+  color: #ff7761;
+  padding-left: 5px;
+}
+
+/* line 41, C:/Sites/daily_routine/app/assets/stylesheets/primary.css.scss */
+#main {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+/* line 46, C:/Sites/daily_routine/app/assets/stylesheets/primary.css.scss */
+#content {
+  background: #f9f9f9;
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25);
+}
+
+/* line 51, C:/Sites/daily_routine/app/assets/stylesheets/primary.css.scss */
+#footer {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 30px;
+  line-height: 30px;
+  width: 100%;
+  text-align: center;
+  background: #FFFFFF;
+  border-top: 1px solid #f9a11b;
+  font-size: 14px;
+}
+/* line 63, C:/Sites/daily_routine/app/assets/stylesheets/primary.css.scss */
+#footer p {
+  margin: 0;
+  padding: 0.1em 1em;
+}
+
+/* line 3, C:/Sites/daily_routine/app/assets/stylesheets/header.css.scss */
+#header {
+  background: #274555;
+  border-bottom: 5px solid #ff7761;
+  box-shadow: 0 1px 0 0 rgba(0, 0, 0, 0.6);
+}
+/* line 8, C:/Sites/daily_routine/app/assets/stylesheets/header.css.scss */
+#header nav {
+  padding: 5px;
+  margin: 0 auto;
+  max-width: 800px;
+  position: relative;
+}
+/* line 15, C:/Sites/daily_routine/app/assets/stylesheets/header.css.scss */
+#header #logo {
+  max-height: 50px;
+}
+
+/* line 20, C:/Sites/daily_routine/app/assets/stylesheets/header.css.scss */
+#menu {
+  margin-top: 20px;
+  float: right;
+}
+/* line 24, C:/Sites/daily_routine/app/assets/stylesheets/header.css.scss */
+#menu li {
+  float: left;
+  margin: 0 10px;
+  list-style-type: none;
+}
+/* line 30, C:/Sites/daily_routine/app/assets/stylesheets/header.css.scss */
+#menu li a, #menu #logout {
+  background: transparent;
+  cursor: pointer;
+  border: 0;
+  font-size: 16px;
+  display: inline-block;
+  color: #fff;
+  text-align: center;
+  height: 30px;
+  line-height: 30px;
+  padding: 0 10px;
+  text-decoration: none;
+}
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+ * require_tree .
+
+
+
+ */
+

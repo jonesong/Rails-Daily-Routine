@@ -1,0 +1,9 @@
+<% @page_title = "#{t 'new_project'}" %>
+
+<h2><%= "#{t 'add_project'}" %></h2>
+
+<%= form_for(@project) do |f| %>
+  <%= render(:partial => 'form', :locals => {:f => f, submit: t('create_project')}) %>
+<% end %>
+
+<%= link_to("#{t 'back_to_projects'}", projects_path, :class => 'back-link') %>

@@ -1,0 +1,105 @@
+@import "variables.css.scss";
+
+table {
+	border-spacing: 0;
+	border-collapse: collapse;
+	background-color: transparent;
+	width: 100%;
+	max-width: 100%;
+	margin-bottom: 20px;
+
+  a {
+    text-decoration: none;
+    color: $light_blue;
+  }
+
+  th, td {
+    text-align: left;
+    padding: 8px;
+  }
+
+  th {
+    color: $light_gray;
+    border-top: 1px solid $gray;
+    border-bottom: 2px solid $gray;
+  }
+
+  td {
+    border-bottom: 1px solid $gray;
+  }
+
+}
+
+.list {
+	background-color: $white !important;
+}
+
+.btn {
+	border: 1px solid $gray;
+	border-radius: 4px;
+	text-align: center;
+	border-radius: 10px;
+}
+
+.custom-width {
+  color: $white;
+	position: inherit;
+  display:block;
+}
+
+.btn-success {
+	background-color: $green_fill;
+	border-color: $green_border;
+}
+
+.btn-success:hover, .btn-success:focus, .btn-success.focus, .btn-success:active,
+	.btn-success.active, .open>.dropdown-toggle.btn-success {
+	background-color: $green_hover;
+}
+
+.btn-danger {
+	background-color: $red_fill;
+	border-color: $red_border;
+}
+
+.btn-danger:hover, .btn-danger:focus, .btn-danger.focus, .btn-danger:active,
+	.btn-danger.active, .open>.dropdown-toggle.btn-danger {
+	background-color: $red_hover;
+}
+
+.btn-update {
+	background-color: $blue_fill;
+	border-color: $blue_border;
+}
+
+.btn-update:hover, .btn-update:focus, .btn-update.focus, .btn-update:active,
+.btn-update.active, .open>.dropdown-toggle.btn-update {
+	background-color: $blue_hover;
+}
+
+/* Errors */
+.field_with_errors {
+  label { color: red; }
+  input { border: 1px solid red; }
+}
+
+#error-explanation {
+  width: 400px;
+  padding: 0; margin: 0 auto 1.5em;
+  border: 1px solid $red;
+  background-color: $white;
+  font-size: 12px;
+  h2 {
+    font-weight: bold;
+    font-size: 12px;
+    padding: 5px 5px 5px 15px; margin: 0;
+    width: 380px;
+    background-color: $red; color: $white;
+  }
+  p {
+    color: $black;
+    margin: 0; padding: 3px 0.5em;
+  }
+  ul { margin-top: 0; }
+  ul li { list-style: square; }
+}

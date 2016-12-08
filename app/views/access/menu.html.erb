@@ -1,0 +1,11 @@
+<% @page_title = t 'admin_menu' %>
+
+<!-- <div class="menu"> -->
+  <h2><%= t 'admin_menu' %></h2>
+  <div class="identity"><%= "#{t 'log_in_as', as: @username}" %></div>
+  <ul>
+    <li><%= link_to("#{t 'manage_projects'}", projects_path) %></li>
+    <li><%= link_to("#{t 'manage_admin_users'}", users_path) %></li>
+    <li><%= link_to("#{t 'log_out'}", access_logout_path) %></li>
+  </ul>
+<!-- </div> -->

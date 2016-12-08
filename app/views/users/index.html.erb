@@ -1,0 +1,29 @@
+<% @page_title = t 'list_of_users' %>
+
+<h2><%= "#{t 'list_of_users'}" %></h2>
+
+<div>
+  <table>
+    <tr class="list">
+      <th><%= t 'user_name' %></th>
+      <th><%= t 'first_name' %></th>
+      <th><%= t 'last_name' %></th>
+      <th width="100"></th>
+      <th width="100"></th>
+    </tr>
+    <% @users.each do |user| %>
+    <tr class="list">
+      <td><%= user.username %></td>
+      <td><%= user.first_name %></td>
+      <td><%= user.last_name %></td>
+      <td><%= link_to("#{t 'edit'}", edit_user_path(user), :class => 'btn btn-success custom-width') %></td>
+      <td><%= link_to("#{t 'delete'}", delete_user_path(user), :class => 'btn btn-danger custom-width') %></td>
+    </tr>
+    <% end %>
+  </table>
+
+</div>
+
+<%= link_to("#{t 'add'} #{t 'new'} #{t 'users'}", new_user_path()) %>
+<br><br>
+<%= link_to("#{t 'back_to_menu'}", admin_path, :class => 'back-link') %>

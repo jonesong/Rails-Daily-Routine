@@ -1,0 +1,9 @@
+en:
+  # Tasks folder
+  all_tasks: "All Tasks"
+  s_tasks: "%{as}s's Tasks"
+  task: "Task"
+  task_name: "Task Name"
+  task_note: "Task Note"
+  task_list: "Task List"
+  task_done: "Task Done"

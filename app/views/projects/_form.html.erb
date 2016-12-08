@@ -1,0 +1,18 @@
+<%= error_messages_for(f.object) %>
+
+<table>
+  <thead>
+    <tr class="list">
+      <th><%= t 'project_name' %></th>
+      <th><%= t 'project_note' %></th>
+      <th width="100"></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr class="list">
+      <td><%= f.text_field(:name, autofocus: true) %></td>
+      <td><%= f.text_field(:note) %></td>
+      <td><%= f.submit(submit, :class => 'btn btn-update custom-width') %></td>
+    </tr>
+  </tbody>
+</table>

@@ -1,0 +1,11 @@
+<% @page_title = "#{t 'edit_user', as: @user.name}" %>
+
+<h2><%= "#{t 'edit_user', as: @user.name}" %></h2>
+
+<%= form_for(@user) do |f| %>
+  <%= render(:partial => 'form', :locals => {:f => f, submit: t('update_user')}) %>
+<% end %>
+
+<%= link_to("#{t 'view'} #{t 'modules'}", "#") %>
+<br><br>
+<%= link_to("#{t 'back_to_users'}", users_path, :class => 'back-link') %>

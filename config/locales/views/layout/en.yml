@@ -1,0 +1,6 @@
+en:
+  daily_routine: "Rails Daily Routine"
+  # header.html
+  view_all: "View all %{program}s"
+  # footer.html
+  footer: "This Application is made to practice programming and is used for personal"

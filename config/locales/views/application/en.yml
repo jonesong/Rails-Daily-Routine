@@ -1,0 +1,4 @@
+en:
+  error: "error"
+  error_continue: "prohibited this record from being saved"
+  problems: "There were problems with the following fields:"

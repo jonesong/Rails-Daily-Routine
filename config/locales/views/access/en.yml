@@ -1,0 +1,14 @@
+en:
+  # login.html
+  admin_login: "Admin Login"
+  log_in: "Log In"
+  # menu.html
+  admin_menu: "Admin Menu"
+  manage_projects: "Manage Projects"
+  manage_admin_users: "Manage Admin Users"
+  log_out: "Logout"
+  log_in_as: "Logged in as: %{as}"
+  please_log_in: "Please log in"
+  invalid_log: "Invalid username/password combination"
+  logged_in: "You are now logged in"
+  logged_out: "Logged out"

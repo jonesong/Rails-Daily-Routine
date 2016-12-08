@@ -1,0 +1,22 @@
+<%= error_messages_for(f.object) %>
+
+<table>
+  <thead>
+    <tr class="list">
+      <th><%= t 'user_name' %></th>
+      <th><%= t 'user_pass' %></th>
+      <th><%= t 'first_name' %></th>
+      <th><%= t 'last_name' %></th>
+      <th width="100"></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr class="list">
+      <td><%= f.text_field(:username) %></td>
+      <td><%= f.password_field(:password) %></td>
+      <td><%= f.text_field(:first_name) %></td>
+      <td><%= f.text_field(:last_name) %></td>
+      <td><%= f.submit(submit, :class => 'btn btn-update custom-width') %></td>
+    </tr>
+  </tbody>
+</table>

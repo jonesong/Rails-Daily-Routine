@@ -1,0 +1,20 @@
+en:
+  # Users folder
+  list_of_users: "List of Users"
+  user_name: "User Name"
+  user_pass: "User Password"
+  first_name: "First Name"
+  last_name: "Last Name"
+  users: "Users"
+  edit_user: "Edit %{as}'s user"
+  back_to_users: "Back to Users"
+  update_user: "Update User"
+  user_updated: "%{as}'s user updated successfully"
+  add_user: "Add user"
+  new_user: "New user"
+  create_user: "Create User"
+  user_created: "%{as}'s user created successfully"
+  # Modules
+  list_of_modules: "List of Modules"
+  modules: "Modules"
+  view: "View"
